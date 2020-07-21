@@ -4,3 +4,8 @@
     font-weight: 300;
     font-style: oblique;
 }
+
+.body {
+    background-color: orange;
+    margin-left: 40px;
+}
