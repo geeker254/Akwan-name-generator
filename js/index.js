@@ -1,4 +1,4 @@
-var form = document.getElementById("dataentry");
+var form = document.getElementsByClassName("dataentry");
 
 document.getElementById("Bdate").addEventListener("Submit", function () {
   form.submit();
@@ -109,3 +109,5 @@ if (Gender===male) {
 }
 document.getElementById("weekday").innerHTML;
 alert(weekday);
+document.getElementsById(window.alert());
+alert(window.alert(Gender));
