@@ -1,9 +1,16 @@
-form.submit(Gender);
-form.submit(Bdate);
+var form = document.getElementById("dataentry");
 
+document.getElementById("Bdate").addEventListener("click", function () {
+  form.submit();
+});
+document.getElementById("Gender").addEventListener("click", function () {
+form.submit();
+});
+
+//FUNTIONS
 let week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-let weekday = form.submit(Bdate);
+let Bdate = weekday;
 let MM = mm;
 let DD = dd;
 let CCYY = yyyy
