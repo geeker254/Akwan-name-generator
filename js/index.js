@@ -16,6 +16,7 @@ let MM = mm;
 let DD = dd;
 let CCYY = yyyy
 weekday(d) = (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
+
 if (weekday === week(0)) {
     weekday = "Sunday";
     if (weekday === week(1)) {
