@@ -19,6 +19,6 @@ The user inputs the date born where it is run by a series of if statements and r
 
     *eugenebiwott@gmail.com
 
-### Link to published site: [click here]( )
+### Link to published site: [click here]()
 
-## License: [copywright information]( )
+## License: [copywright information](https://raw.githubusercontent.com/geeker254/Akwan-name-generator/master/LICENSE)
