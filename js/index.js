@@ -3,7 +3,7 @@ form.submit(Bdate);
 
 let week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-let weekday = Bdate;
+let weekday = form.submit(Bdate);
 let MM = mm;
 let DD = dd;
 let CCYY = yyyy
@@ -28,7 +28,7 @@ if (weekday = week(0)) {
             }
         }
     }
-    alert.weekday(d);
+    alert(weekday);
 }
 
 
@@ -38,6 +38,7 @@ let female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 var maledays = week.concat(male);
 var femaledays = week.concat(female);
 
+let Gender = form.submit(Gender);
 
 if (Gender=male) {
     if (Male=Male(0)) {
@@ -96,16 +97,5 @@ if (Gender=male) {
                 }
             }
         }
-        
+    }   
 }
-}
-
-
-
-
-
-
-function newFunction() {
-    app.alert("Day of week: " + util.printd("dddd", oDate));
-}
-
