@@ -37,7 +37,6 @@ if (weekday === week(0)) {
             }
         }
     }
-    alert(weekday);
 }
 
 
