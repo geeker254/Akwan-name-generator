@@ -107,3 +107,5 @@ if (Gender===male) {
         }
     }   
 }
+document.getElementById("weekday").innerHTML;
+alert(weekday);
