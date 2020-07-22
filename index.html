@@ -16,17 +16,16 @@
         <h2 class="text-center text-danger">AKWAN Name Selector</h2>
         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born</p>
     </header>    
+    <form class="pt-5">
+            <label for="Date of Birth">Birthday Date:</label>
+            <input type="date" id="Bdate" name="Bdate"><br><br>
+                <label>Gender</label>
+                <select id = "Gender">
+                <option value = "Male">Male</option>
+                <option value = "Female">Female</option><br><br>
 
-    <div class="form pt-5 ml-5">
-        <label for="Date of Birth">Birthday Date:</label>
-        <input type="date" id="Bdate" name="Bdate"><br><br>
-            <label>Gender</label>
-             <select id = "Gender">
-               <option value = "Male">Male</option>
-               <option value = "Female">Female</option><br><br>
-
-            <input type="submit" value="Submit"> 
-    </div>
+            <input type="submit" value="Submit" onsubmit="Bdate" onsubmit="Gender">
+    </form>
     <p class="pt-3 text-center">Akan names are generally derived from the day of the week one is born and is dependant on gender factor either male or female.</p>
     <div class="container">
         <div class="row">
